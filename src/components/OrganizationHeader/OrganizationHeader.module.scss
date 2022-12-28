@@ -1,0 +1,44 @@
+@use "../../styles/abstracts/index" as *;
+
+.organizationHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid $brown;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 40px;
+  padding: 5px;
+  max-width: 400px;
+  height: 22px;
+  border: 1px solid $brown;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: $mobile) {
+  .organizationHeader {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border: none;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .search {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,26 @@
+@use "../../styles/abstracts" as *;
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $brown;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.content {
+  margin-top: 10px;
+  height: auto;
+}
+
+.licenses {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}

@@ -1,0 +1,15 @@
+@use "../styles/abstracts" as *;
+
+.wrapper {
+  padding: 2%;
+  min-height: 100vh;
+  background: $light-brown;
+}
+
+.container {
+  padding: 2%;
+  width: 100%;
+  height: auto;
+  background: $white;
+  border-radius: 15px;
+}

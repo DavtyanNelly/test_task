@@ -1,0 +1,32 @@
+@use "../../../styles/abstracts" as *;
+
+.licensesTitle {
+  margin: 10px 0 5px;
+}
+
+.licensesContent {
+  width: 40%;
+}
+
+.licensesItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inUse {
+  color: $green;
+}
+
+.inUseRed {
+  color: $red;
+}
+
+.currentAssigned {
+  width: 42px;
+  border: 1px solid $brown;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
